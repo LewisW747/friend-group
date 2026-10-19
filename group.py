@@ -25,6 +25,6 @@ Nash = Person('Nash', 34, 'Chef')
 
 
 Jill.add_connection('Friend', Zalika, reverse_relation='Friend')
-Jill.add_connection('Partner', John)
+Jill.add_connection('Partner', John, reverse_relation='Partner')
 Zalika.add_connection('Landlord', Nash, reverse_relation='Tenant')
 John.add_connection('Cousin', Nash, reverse_relation='Cousin')

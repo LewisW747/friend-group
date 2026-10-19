@@ -1,7 +1,7 @@
 """An example of how to represent a group of acquaintances in Python."""
 
 class Person:
-    def __init__(self, name, age, occupation):
+    def __init__(self, name, age, occupation=None):
         self.name = name
         self.age = age
         self.occupation = occupation
